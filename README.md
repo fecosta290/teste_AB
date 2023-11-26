@@ -7,6 +7,7 @@ Entre no seu servidor mysql e execute o  seguinte comando
 CREATE DATABASE <nome do banco>;
 USE <nome do banco>;
 ```
+ou apenas use o arquivo .sql que deixamos como base.
 
 A seguir, um breve guia sobre como configurar e executar este projeto.
 

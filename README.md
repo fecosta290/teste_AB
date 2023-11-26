@@ -4,8 +4,8 @@
 Entre no seu servidor mysql e execute o  seguinte comando
 
 ```
-CREATE DATABASE metrica_AB;
-USE metrica_AB;
+CREATE DATABASE <nome do banco>;
+USE <nome do banco>;
 ```
 
 A seguir, um breve guia sobre como configurar e executar este projeto.
@@ -46,6 +46,18 @@ Depois de ativar o ambiente virtual, você pode instalar as dependências do pro
     ```
 
     Isso instalará todas as dependências listadas no arquivo `requirements.txt`.
+
+## Adaptanddo seu codigo
+Para que o programa se conecte ao seu banco de dados faça a seguinte configuração:
+```
+config = {
+    'user':'seu usuario',
+    'password':'sua senha',
+    'host':'localhost',
+    'database':'seu banco  de dados',
+    'raise_on_warnings': True
+}
+```
 
 ## Executando o Projeto
 
